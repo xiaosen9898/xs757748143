@@ -1,0 +1,30 @@
+import{_ as n,c as a,a2 as p,o as l}from"./chunks/framework.D3LXhGAZ.js";const u=JSON.parse('{"title":"Git 忽略文件","description":"","frontmatter":{},"headers":[],"relativePath":"sidebar/versionCtrl/git/ignore.md","filePath":"sidebar/versionCtrl/git/ignore.md"}'),e={name:"sidebar/versionCtrl/git/ignore.md"};function i(r,s,c,o,t,b){return l(),a("div",null,s[0]||(s[0]=[p(`<h1 id="git-忽略文件" tabindex="-1">Git 忽略文件 <a class="header-anchor" href="#git-忽略文件" aria-label="Permalink to &quot;Git 忽略文件&quot;">​</a></h1><h2 id="忽略文件" tabindex="-1">忽略文件 <a class="header-anchor" href="#忽略文件" aria-label="Permalink to &quot;忽略文件&quot;">​</a></h2><div class="tip custom-block github-alert"><p class="custom-block-title">TIP</p><p></p><p>忽略不想让git管理的文件，写在这个文件中的内容不会被git管理</p></div><p> </p><h2 id="使用步骤" tabindex="-1">使用步骤 <a class="header-anchor" href="#使用步骤" aria-label="Permalink to &quot;使用步骤&quot;">​</a></h2><div class="tip custom-block github-alert"><p class="custom-block-title">TIP</p><p></p><ol><li><p>在仓库的根目录创建一个 <code>.gitignore</code> 的文件，文件名是固定的</p></li><li><p>将不需要被git管理的文件路径添加到 <code>.gitignore</code> 中</p></li><li><p>格式：</p></li></ol><blockquote><ul><li>忽略.class文件：<code>*.class</code></li><li>忽略login.css文件：<code>login.css</code></li><li>忽略log下所有文件：<code>log/*</code></li><li>忽略css目录下的.css文件：<code>css/*.css</code></li><li>忽略node_modules目录：<code>node_modules/</code></li></ul></blockquote><ol start="4"><li>一般要忽略的文件：</li></ol><div class="language-txt vp-adaptive-theme line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang">txt</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span> .DS_Store</span></span>
+<span class="line"><span> </span></span>
+<span class="line"><span> node_modules/</span></span>
+<span class="line"><span> </span></span>
+<span class="line"><span> dist/</span></span>
+<span class="line"><span> </span></span>
+<span class="line"><span> npm-debug.log*</span></span>
+<span class="line"><span> </span></span>
+<span class="line"><span> yarn-debug.log*</span></span>
+<span class="line"><span> </span></span>
+<span class="line"><span> yarn-error.log*</span></span>
+<span class="line"><span> </span></span>
+<span class="line"><span> package-lock.json</span></span>
+<span class="line"><span> </span></span>
+<span class="line"><span> tests/**/coverage/</span></span>
+<span class="line"><span> </span></span>
+<span class="line"><span> </span></span>
+<span class="line"><span> # Editor directories and files</span></span>
+<span class="line"><span> </span></span>
+<span class="line"><span> .idea</span></span>
+<span class="line"><span> </span></span>
+<span class="line"><span> .vscode</span></span>
+<span class="line"><span> </span></span>
+<span class="line"><span> *.suo</span></span>
+<span class="line"><span> </span></span>
+<span class="line"><span> *.ntvs*</span></span>
+<span class="line"><span> </span></span>
+<span class="line"><span> *.njsproj</span></span>
+<span class="line"><span> </span></span>
+<span class="line"><span> *.sln</span></span></code></pre><div class="line-numbers-wrapper" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br></div></div><ol start="5"><li>注意：</li></ol><blockquote><ul><li>一定要先添加好忽略文件，再添加对应的文件，如果文件已经提交了，则再添加忽略文件是不生效的</li></ul></blockquote></div>`,6)]))}const m=n(e,[["render",i]]);export{u as __pageData,m as default};
