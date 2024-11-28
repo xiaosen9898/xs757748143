@@ -1,0 +1,1 @@
+import{_ as t,c as a,o as e}from"./chunks/framework.D3LXhGAZ.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"python/py/standardLib.md","filePath":"python/py/standardLib.md"}'),n={name:"python/py/standardLib.md"};function r(o,s,d,p,c,i){return e(),a("div")}const f=t(n,[["render",r]]);export{m as __pageData,f as default};
