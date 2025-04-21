@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as x}from"./chunks/framework.D3LXhGAZ.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"threejs/xxxx/xxx.md","filePath":"threejs/xxxx/xxx.md"}'),r={name:"threejs/xxxx/xxx.md"};function a(s,o,c,n,p,_){return x(),t("div")}const m=e(r,[["render",a]]);export{i as __pageData,m as default};
