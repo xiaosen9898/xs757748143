@@ -1,0 +1,1 @@
+import{_ as e,c as x,o as t}from"./chunks/framework.BvVMNBiX.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"webgl/xxxx/xxx.md","filePath":"webgl/xxxx/xxx.md"}'),a={name:"webgl/xxxx/xxx.md"};function r(o,s,c,n,p,_){return t(),x("div")}const l=e(a,[["render",r]]);export{i as __pageData,l as default};
