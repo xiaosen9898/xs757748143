@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as r}from"./chunks/framework.BvVMNBiX.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"react/react/project.md","filePath":"react/react/project.md"}'),a={name:"react/react/project.md"};function c(o,s,n,p,_,d){return r(),t("div")}const f=e(a,[["render",c]]);export{m as __pageData,f as default};
